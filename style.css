@@ -1,57 +1,48 @@
-
 body {
 color: white;
 background: black;
 }
 header {
-border-bottom: solid 2px rgb(42, 122, 228);
-}
+border-bottom: solid 2px rgb(255, 255, 255);
 padding: 20px;
 font-size: 32px;
-color: rgb(42, 122, 228);
-section {
-background: rgb(184, 156, 213);
+color: rgb(241, 30, 178);
 }
-section {
-background: rgb(184, 156, 213);
+.chamada {
+background: rgb(239, 33, 187);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
 }
-<section>
-<div class="chamada-texto">
 .chamada-texto {
-    margin-right: 5%;
+margin-right: 5%;
 }
 
 h1 {
-  font-size: 40px;
+font-size: 40px;
 }
 p {
-  font-size: 20px;
-}.chamada-texto {
-    margin-right: 5%;
-}
-
-h1 {
-  font-size: 40px;
-}
-p {
-  font-size: 20px;
+font-size: 20px;
 }
 .categoria {
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-top: 50px;
+padding-left: 20px;
+padding-right: 20px;
+margin-top: 50px;
 }
 
 
 .categoria-videos img {
-    opacity: 0.5;
-    height: 200px
+opacity: 0.5;
+height: 200px
 }
 
 .categoria-videos img:hover {
-    opacity: 1.0;
-    border: 1px solid green;
+opacity: 1.0;
+border: 1px solid rgb(209, 25, 151);
 }
 
 .categoria h2 {
- color: rgb(42, 122, 228);
+color: rgb(203, 24, 144);
+}
+
